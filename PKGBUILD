@@ -7,7 +7,7 @@ arch=('x86_64')
 url="https://www.adobe.com/products/illustrator.html"
 license=('custom')
 depends=('wine' 'winetricks' 'zenity' 'p7zip' 'lib32-gnutls' 'lib32-alsa-lib' 'lib32-libpulse')
-source=("illustratorCC17.tgz::https://downloads.runebase.io/illustratorCC17.tgz"
+source=("illustratorCC17.tgz::https://github.com/harchlinux/illustratorcc17-linux/releases/download/1.5.0/illustratorCC17.tgz"
         "illustrator.desktop"
         "illustrator.png")  
 sha256sums=('SKIP'
