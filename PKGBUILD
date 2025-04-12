@@ -1,4 +1,4 @@
-# Maintainer: Your Name <your@email.com>
+# Maintainer: milad alizade <miladalizade8282@gmail.com>
 pkgname=illustrator-cc-wine
 pkgver=17
 pkgrel=1
@@ -12,7 +12,7 @@ source=("illustratorCC17.tgz::https://github.com/harchlinux/illustratorcc17-linu
         "illustrator.png")  
 sha256sums=('SKIP'
             'SKIP'
-            'SKIP') # Replace with desktop checksum
+            'SKIP') 
 
 package() {
   # ----- Create Directory Structure -----
