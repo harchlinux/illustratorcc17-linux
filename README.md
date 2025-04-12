@@ -37,6 +37,14 @@ cd illustrator-cc-wine
 # Build and install
 makepkg -si
 ```
+
+## 🔧 Post-Install Fix (Permission Issues)
+
+After installation, run this command to ensure proper file ownership:
+
+```bash
+sudo chown -R $USER:$USER "/opt/illustratorCC"
+```
 # Post-install setup (automatic)
 # - Wine prefix initialization
 # - Dependency installation
