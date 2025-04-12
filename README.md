@@ -66,7 +66,34 @@ illustrator-cc
 Search for "Illustrator CC" in your application menu.
 
 ---
+## 🐧 Distribution Compatibility
 
+**Warning**: This package is specifically designed for **Arch-based distributions** only.  
+
+### ✅ Supported Distributions  
+| Distribution | Tested Status | Notes |
+|--------------|---------------|-------|
+| Arch Linux | ✔️ Fully working | Native support |
+| harch Linux | ✔️ Fully working | Native support |
+| Manjaro | ✔️ Working | Kernel 6.5+ recommended |
+| EndeavourOS | ✔️ Verified |  Requires manual dependency checks  |
+| ArcoLinux | ⚠️ Partial | Requires manual dependency checks |
+
+### ❌ Unsupported Distributions  
+- Debian/Ubuntu (`.deb`-based)  
+- Fedora/RHEL (`.rpm`-based)  
+- OpenSUSE  
+- Other non-Arch systems  
+
+### Technical Limitations  
+1. **Dependency Handling**:  
+   Relies on Arch's `lib32-*` package naming convention  
+2. **Installation Method**:  
+   Requires `makepkg` (exclusive to Arch-based systems)  
+3. **Wine Configuration**:  
+   Optimized for Arch's Wine build (`wine-staging` recommended)  
+
+---
 ## ⚠️ Legal & Licensing
 **Important**: This package **does not** include Adobe Illustrator. You must:
 1. Own a legal copy of Illustrator CC 2017
