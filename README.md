@@ -45,10 +45,18 @@ After installation, run this command to ensure proper file ownership:
 ```bash
 sudo chown -R $USER:$USER "/opt/illustratorCC"
 ```
+# Why this is needed:
+* Prevents "Access Denied" errors in Wine
+
+* Allows saving files and preferences
+
+* Fixes launcher issues for non-root users
+---
+
 # Post-install setup (automatic)
-# - Wine prefix initialization
-# - Dependency installation
-# - Permission fixes
+- Wine prefix initialization
+- Dependency installation
+- Permission fixes
 
 
 ---
