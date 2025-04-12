@@ -1,0 +1,57 @@
+Adobe Illustrator CC for Linux (Wine Packaging Solution)
+Copyright (C) 2023 Milad Alizade <miladalizade8282@gmail.com>
+Telegram: @miladalizadw
+
+=======================================================================
+WINE PACKAGING SYSTEM FOR ADOBE ILLUSTRATOR CC 2017
+=======================================================================
+This project provides:
+✔ Wine configuration scripts
+✔ Linux desktop integration
+✔ Automated dependency resolution
+✖ DOES NOT include Adobe proprietary binaries
+
+=======================================================================
+LEGAL TERMS (PACKAGE AUTHOR)
+=======================================================================
+1. GRANT OF RIGHTS:
+   - Permission to use, modify, and distribute this packaging system
+   - Commercial and non-commercial use permitted
+
+2. USER REQUIREMENTS:
+   - Must legally own Adobe Illustrator CC 2017
+   - Must comply with Adobe's EULA (www.adobe.com/legal/terms.html)
+   - Must not redistribute Adobe assets through this package
+
+3. MAINTAINER CONTACT:
+   - Primary: miladalizade8282@gmail.com
+   - Telegram: @miladalizadw
+   - Issue tracker: https://github.com/harchlinux/
+
+=======================================================================
+DISCLAIMERS
+=======================================================================
+❗ NO WARRANTY:
+- Adobe Illustrator functionality depends on Wine compatibility
+- Not officially supported by Adobe Inc.
+
+❗ TRADEMARKS:
+- "Adobe Illustrator" is a registered trademark of Adobe Inc.
+- Wine is a trademark of WineHQ
+
+❗ LIABILITY:
+- Package author not responsible for:
+  - Adobe licensing violations
+  - System instability from Wine usage
+  - Loss of design work due to compatibility issues
+
+=======================================================================
+REDISTRIBUTION NOTICE
+=======================================================================
+When sharing modified versions:
+1. Preserve this license file
+2. Clearly state changes made
+3. Remove all Adobe copyrighted material
+4. Provide original source attribution
+
+Last Updated: 2025-04-12
