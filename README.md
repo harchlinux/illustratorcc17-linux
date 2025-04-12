@@ -28,7 +28,18 @@
 - Arch Linux (or derivatives with AUR support)
 - Base-devel package group
 
-### Steps
+## Enable Required Repositories
+```bash
+# 1. Enable Multilib
+sudo sed -i '/\[multilib\]/,/Include/s/^#//' /etc/pacman.conf
+
+# 2. Add ArchLinuxCN
+echo -e "\n[archlinuxcn]\nServer = https://mirrors.ustc.edu.cn/archlinuxcn/\$arch" | sudo tee -a /etc/pacman.conf
+
+# 3. Update and install keyring
+sudo pacman -Syu archlinuxcn-keyring
+```
+### Steps on makepkg
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/illustrator-cc-wine.git
@@ -37,7 +48,12 @@ cd illustrator-cc-wine
 # Build and install
 makepkg -si
 ```
+### install with easy installer
+```bash
+wget https://github.com/harchlinux/illustratorcc17-linux/releases/download/1.5.0/illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
+sudo pacman -U illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
 
+```
 ## 🔧 Post-Install Fix (Permission Issues)
 
 After installation, run this command to ensure proper file ownership:
