@@ -39,36 +39,12 @@ echo -e "\n[archlinuxcn]\nServer = https://mirrors.ustc.edu.cn/archlinuxcn/\$arc
 # 3. Update and install keyring
 sudo pacman -Syu archlinuxcn-keyring
 ```
-### Steps on makepkg
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/illustrator-cc-wine.git
-cd illustrator-cc-wine
-
-# Build and install
-makepkg -si
-```
 ### install with easy installer
 ```bash
 wget https://github.com/harchlinux/illustratorcc17-linux/releases/download/1.5.0/illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
 sudo pacman -U illustrator-cc-wine-17-1-x86_64.pkg.tar.zst
 
 ```
-## 🔧 Post-Install Fix (Permission Issues)
-
-After installation, run this command to ensure proper file ownership:
-
-```bash
-sudo chown -R $USER:$USER "/opt/illustratorCC"
-```
-# Why this is needed:
-* Prevents "Access Denied" errors in Wine
-
-* Allows saving files and preferences
-
-* Fixes launcher issues for non-root users
----
-
 # Post-install setup (automatic)
 - Wine prefix initialization
 - Dependency installation
